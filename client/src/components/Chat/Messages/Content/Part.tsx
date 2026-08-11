@@ -67,6 +67,7 @@ const Part = memo(function Part({
   if (askUserQuestion) {
     return (
       <AskUserQuestion
+        key={askUserQuestion.ask_user_question.actionId}
         actionId={askUserQuestion.ask_user_question.actionId}
         question={askUserQuestion.ask_user_question.question}
       />
@@ -164,7 +165,7 @@ const Part = memo(function Part({
     const failed = part.status === 'failed' || part.status === 'partial';
     return (
       <div
-        className={`my-1 pl-1 text-sm italic ${failed ? 'text-amber-600 dark:text-amber-400' : 'text-text-secondary'}`}
+        className={`my-1 break-words pl-1 text-sm italic ${failed ? 'text-amber-600 dark:text-amber-400' : 'text-text-secondary'}`}
       >
         {display}
       </div>
