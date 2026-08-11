@@ -94,32 +94,32 @@ cache: true
 
 # Custom interface configuration
 interface:
-  customWelcome: 'Welcome to LibreChat! Enjoy your experience.'
+  customWelcome: '欢迎使用 LingForm，您的智能表单开发助手。'
   # Enable/disable file search as a chatarea selection (default: true)
   # Note: This setting does not disable the Agents File Search Capability.
   # To disable the Agents Capability, see the Agents Endpoint configuration instead.
   fileSearch: true
   # Privacy policy settings
   privacyPolicy:
-    externalUrl: 'https://librechat.ai/privacy-policy'
+    externalUrl: 'https://www.weaver.com.cn/'
     openNewTab: true
 
   # Terms of service
   termsOfService:
-    externalUrl: 'https://librechat.ai/tos'
+    externalUrl: 'https://www.weaver.com.cn/'
     openNewTab: true
     modalAcceptance: true
-    modalTitle: 'Terms of Service for LibreChat'
+    modalTitle: 'Terms of Service for LingForm'
     modalContent: |
-      # Terms and Conditions for LibreChat
+      # Terms and Conditions for LingForm
 
       *Effective Date: February 18, 2024*
 
-      Welcome to LibreChat, the informational website for the open-source AI chat platform, available at https://librechat.ai. These Terms of Service ("Terms") govern your use of our website and the services we offer. By accessing or using the Website, you agree to be bound by these Terms and our Privacy Policy, accessible at https://librechat.ai//privacy.
+      Welcome to LingForm, the AI-powered form development assistant, available at https://www.weaver.com.cn/. These Terms of Service ("Terms") govern your use of our website and the services we offer. By accessing or using the Website, you agree to be bound by these Terms and our Privacy Policy, accessible at https://www.weaver.com.cn/.
 
       ## 1. Ownership
 
-      Upon purchasing a package from LibreChat, you are granted the right to download and use the code for accessing an admin panel for LibreChat. While you own the downloaded code, you are expressly prohibited from reselling, redistributing, or otherwise transferring the code to third parties without explicit permission from LibreChat.
+      Upon purchasing a package from LingForm, you are granted the right to download and use the code for accessing an admin panel for LingForm. While you own the downloaded code, you are expressly prohibited from reselling, redistributing, or otherwise transferring the code to third parties without explicit permission from LingForm.
 
       ## 2. User Data
 
@@ -143,7 +143,7 @@ interface:
 
       ## 7. Contact Information
 
-      If you have any questions about these Terms, please contact us at contact@librechat.ai.
+      If you have any questions about these Terms, please visit https://www.weaver.com.cn/.
 
       By using the Website, you acknowledge that you have read these Terms of Service and agree to be bound by them.
 
@@ -293,7 +293,7 @@ registration:
 actions:
   allowedDomains:
     - 'swapi.dev'
-    - 'librechat.ai'
+    - 'weaver.com.cn'
     - 'google.com'
     # - 'http://10.225.26.25:7894'  # Internal IP with protocol/port (uncomment if needed)
   # `allowedAddresses` is an SSRF exemption list, NOT a strict whitelist.

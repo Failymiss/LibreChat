@@ -39,9 +39,9 @@ function Footer({ className, startupConfig }: FooterProps) {
   const mainContentParts = (
     typeof config?.customFooter === 'string'
       ? config.customFooter
-      : '[LibreChat ' +
+      : '[LingForm ' +
         Constants.VERSION +
-        '](https://librechat.ai) - ' +
+        '](https://www.weaver.com.cn/) - ' +
         localize('com_ui_latest_footer')
   ).split('|');
 
